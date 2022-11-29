@@ -1,0 +1,4 @@
+FROM openjdk:11
+EXPOSE 8082
+ADD target/Jaswanth.jar Jaswanth.jar
+ENTRYPOINT ["java","-jar","/Jaswanth.jar"]
